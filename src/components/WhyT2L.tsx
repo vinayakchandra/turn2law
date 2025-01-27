@@ -4,7 +4,7 @@ function WhyT2L() {
   return (
 
     <section
-      className="flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-white to-orange-100 p-8 md:p-16">
+      className="mt-20 flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-white to-orange-100 p-8 md:p-16">
       <div className="w-full md:w-1/2">
         <h2 className="text-3xl font-bold text-black mb-6">
           Why <span className="text-primary ">Turn2Law</span>
