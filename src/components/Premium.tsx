@@ -1,6 +1,6 @@
 function Premium() {
   return (
-    <div className="border m-5 flex flex-col md:flex-row justify-between items-center bg-[#FAEDE4] rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
+    <div className="border m-20 flex flex-col md:flex-row justify-between items-center bg-[#FAEDE4] rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
       <div className="max-w-lg mb-6 md:mb-0">
         <div className="text-4xl font-bold mb-4">
           <img src="/Logo.svg" alt="Logo" className="w-10 h-10 mb-4" />

@@ -1,6 +1,6 @@
 function About(){
   return (
-    <div className="container mx-auto p-4 space-y-6 my-5">
+    <div className="container mx-auto p-4 space-y-6 my-10">
       <header className="text-center mb-8 text-4xl font-semibold">Know about us.</header>
       <div className="accordion w-full">
         <div className="accordion-item border-b border-border">
