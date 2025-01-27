@@ -27,7 +27,7 @@ const AuthPage = () => {
         {/* Right Section */}
         <div className="bg-white flex flex-col justify-center items-center p-8 rounded-tr-2xl md:rounded-r-2xl overflow-hidden border border-gray-300">
           <div className="w-full max-w-md">
-            <h2 className="text-2xl font-semibold mb-6 text-center">Sign in</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-center">Sign up</h2>
             <form className="space-y-4">
               <input
                 type="email"
@@ -41,14 +41,14 @@ const AuthPage = () => {
               />
               <button
                 type="submit"
-                className="w-full py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700"
+                className="w-full py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 hover:cursor-pointer"
               >
-                Login
+                Continue
               </button>
             </form>
             <div className="text-center mt-4">
-              <a href="#signup" className="text-teal-600 hover:underline">
-                Signup
+              <a href="/auth/signin" className="text-teal-600 hover:underline ">
+                Login
               </a>
             </div>
             <div className="flex items-center my-6">
@@ -56,7 +56,7 @@ const AuthPage = () => {
               <span className="px-4 text-gray-500 text-sm">or</span>
               <hr className="flex-grow border-t border-gray-300" />
             </div>
-            <button className="w-full py-2 border border-gray-300 text-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-100">
+            <button className="w-full py-2 border border-gray-300 text-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-100 hover:cursor-pointer">
               <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png"
                 alt="Google Logo"
