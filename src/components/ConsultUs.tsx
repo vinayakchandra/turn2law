@@ -48,7 +48,7 @@ const ConsultUsForm = () => {
               id="description"
               placeholder="Provide details here..."
               className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
-              rows="4"
+              rows={4}
             ></textarea>
           </div>
           <button type="submit" className="w-full py-2 px-4 bg-primary bg-teal-800 text-white font-medium rounded hover:bg-primary-dark transition">
