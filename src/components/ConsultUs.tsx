@@ -1,63 +1,53 @@
-const ConsultUsForm = () => {
-  return (
-    <section className="py-12 md:py-16 flex flex-col md:flex-row items-center justify-center bg-[#00796b] p-6">
+import React from "react";
 
-    {/* Artwork Section */}
-      <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
-        <div className="bg-gray-300 w-3/4 h-64 flex items-center justify-center">
-          <h1 className="text-6xl font-bold text-black">ART<br />WORK</h1>
-        </div>
+export default function ConsultUsForm() {
+  return (
+    <div className="mt-10 flex flex-col md:flex-row items-center justify-center bg-teal-700">
+      {/* Left Section */}
+      <div className="h-90  flex-1 flex items-center justify-center bg-gray-300 w-full md:w-1/2 p-8">
+        <h1 className="text-black text-6xl font-bold text-center">ART WORK</h1>
       </div>
 
-      {/* Form Section */}
-      <div className="w-full md:w-1/2">
-        <h2 className="text-xl font-semibold text-white mb-4">Provide your details</h2>
-        <form className="bg-teal-500 p-6 rounded-lg space-y-4 shadow-lg">
-          <div>
-            <label className="block text-sm font-medium text-white mb-1" htmlFor="name">Name</label>
+      {/* Right Section */}
+      <div className="flex-1 w-full md:w-1/2 p-8">
+        <h2 className="text-white text-2xl mb-6 text-center md:text-left">Provide your details</h2>
+
+        <form className="space-y-4">
+          <input
+            type="text"
+            placeholder="Name"
+            className="w-full p-3 rounded-md bg-[#D9D9D999]  focus:outline-none focus:ring-2 focus:ring-teal-400"
+          />
+
+          <div className="flex space-x-2">
             <input
               type="text"
-              id="name"
-              placeholder="Your Name"
-              className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
+              placeholder="+91"
+              className="w-1/4 p-3 rounded-md bg-[#D9D9D999]  focus:outline-none focus:ring-2 focus:ring-teal-400"
+            />
+            <input
+              type="text"
+              placeholder=""
+              className="w-3/4 p-3 rounded-md bg-[#D9D9D999] text-black  focus:outline-none focus:ring-2 focus:ring-teal-400"
             />
           </div>
-          <div className="flex space-x-4">
-            <div className="flex-1">
-              <label className="block text-sm font-medium text-white mb-1" htmlFor="phone">Phone</label>
-              <input
-                type="tel"
-                id="phone"
-                placeholder="+91"
-                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-            </div>
-            <div className="flex-2">
-              <label className="block text-sm font-medium text-white mb-1" htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Your Email"
-                className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-            </div>
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-white mb-1" htmlFor="description">Describe</label>
-            <textarea
-              id="description"
-              placeholder="Provide details here..."
-              className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
-              rows={4}
-            ></textarea>
-          </div>
-          <button type="submit" className="w-full py-2 px-4 bg-primary bg-teal-800 text-white font-medium rounded hover:bg-primary-dark transition">
+          <input
+            type="email"
+            placeholder="Email"
+            className="w-full p-3 rounded-md bg-[#D9D9D999] text-black  focus:outline-none focus:ring-2 focus:ring-teal-400"
+          />
+          <textarea
+            placeholder="Describe"
+            className="w-full p-3 rounded-md bg-[#D9D9D999] text-black  focus:outline-none focus:ring-2 focus:ring-teal-400 h-32"
+          ></textarea>
+          <button
+            type="submit"
+            className="w-full p-3 rounded-md bg-[#D9D9D999] text-black font-bold hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-teal-300 hover:cursor-pointer"
+          >
             Submit
           </button>
         </form>
       </div>
-    </section>
+    </div>
   );
-};
-
-export default ConsultUsForm;
+}
