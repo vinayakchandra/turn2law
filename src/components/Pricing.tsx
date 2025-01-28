@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <div className="p-8 flex flex-col justify-center items-center space-y-8 h-auto">
+    <div className="p-8 flex flex-col justify-center items-center space-y-8 h-auto overflow-hidden">
       <span className="text-4xl text-text font-bold text-center">Pricing</span>
 
       {/* Flex container for pricing cards */}
