@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ConsultUsForm() {
   return (
-    <div className="mt-10 flex flex-col md:flex-row items-center justify-center bg-teal-700">
+    <div className="h-200 mt-10 flex flex-col md:flex-row items-center justify-center bg-teal-700">
       {/* Left Section */}
       <div className="h-90  flex-1 flex items-center justify-center bg-gray-300 w-full md:w-1/2 p-8">
         <h1 className="text-black text-6xl font-bold text-center">ART WORK</h1>
