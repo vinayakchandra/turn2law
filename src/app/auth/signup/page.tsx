@@ -12,7 +12,7 @@ const AuthPage = () => {
         <div
           className="bg-white flex flex-col justify-center items-center p-8 rounded-2xl md:rounded-r-2xl overflow-hidden border border-gray-300">
           <div className="w-full max-w-md">
-            <h2 className="text-2xl font-semibold mb-6 text-center">Sign in</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-center">Sign up</h2>
             <form className="space-y-4">
               <input
                 type="email"
